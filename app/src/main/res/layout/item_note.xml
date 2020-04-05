@@ -29,20 +29,20 @@
             style="@style/Text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="LastUpdated"
-            android:maxLines="1"
-            android:ellipsize="end"
-            app:layout_constraintBottom_toBottomOf="parent"/>
-
-        <TextView
-            android:id="@+id/date"
-            style="@style/Text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="Content"
             android:maxLines="1"
             android:ellipsize="end"
             app:layout_constraintTop_toBottomOf="@id/title"/>
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/Detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LastUpdated"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:layout_constraintBottom_toBottomOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
